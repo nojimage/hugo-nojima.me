@@ -1,0 +1,31 @@
+baseURL: https://nojima.me/
+title: nojima.me
+theme: "PaperMod"
+languageCode: ja-jp
+defaultContentLanguage: ja
+hasCJKLanguage: true
+
+params:
+  homeInfoParams:
+    Title: "こんにちは世界"
+    Content: "CakePHP答えるマンだった何かの雑記"
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/nojimage"
+    - name: "mastodon"
+      url: "https://mastodon.social/@nojimage"
+    - name: "bluesky"
+      url: "https://bsky.app/profile/nojimage.nojima.me"
+  ShowShareButtons: true
+  ShowToc: true
+  mainSections:
+    - "post"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+services:
+  googleAnalytics:
+    id: "G-1G566KQ2GG"
