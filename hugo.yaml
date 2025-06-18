@@ -29,3 +29,7 @@ markup:
 services:
   googleAnalytics:
     id: "G-1G566KQ2GG"
+
+caches:
+  images:
+    dir: :cacheDir/images
